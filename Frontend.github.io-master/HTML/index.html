@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../CSS/estilos.css">
+    <title>Mi pagina</title>
+</head>
+<body>
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>|Lego|</h1>
+                    <nav id="nav">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#portafolio" onclick="seleccionar(this)">PORTAFOLIO</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                        </ul>
+                    </nav>
+                    <!-- icono responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <!-- iconos de las redes -->
+                    <div class="redes">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2>Soy <span>Alejo Sosnowski</span>, Desarrollador web.</h2>
+                <p class="descripcion">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                <a href="portafolio">Ir a portafolio</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="../IMG/foto-de-perfil.jpg" alt="">
+        </div>        
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, soy <span>Alejo Sosnowski</span></h2>
+            <h3>Desarrollador Web</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eius optio ex esse quos impedit explicabo suscipit.
+            Ratione at explicabo neque amet minus </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+            <a href="#">Descargar cv</a>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseños de sitios web</h4>
+                <hr>
+                <ul class="serviciios-tag">
+                    <li>Web</li>
+                    <li>Grapic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam provident sunt optio vel magnam incid.</p>
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseños de sitios web</h4>
+                <hr>
+                <ul class="serviciios-tag">
+                    <li>Web</li>
+                    <li>Grapic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam provident sunt optio vel magnam incid.</p>
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseños de sitios web</h4>
+                <hr>
+                <ul class="serviciios-tag">
+                    <li>Web</li>
+                    <li>Grapic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam provident sunt optio vel magnam incid.</p>
+            </div>
+            
+        </div>
+        <div class="fila">
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseños de sitios web</h4>
+                <hr>
+                <ul class="serviciios-tag">
+                    <li>Web</li>
+                    <li>Grapic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam provident sunt optio vel magnam incid.</p>
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseños de sitios web</h4>
+                <hr>
+                <ul class="serviciios-tag">
+                    <li>Web</li>
+                    <li>Grapic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam provident sunt optio vel magnam incid.</p>
+            </div>
+            <div class="servicios">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>Diseños de sitios web</h4>
+                <hr>
+                <ul class="serviciios-tag">
+                    <li>Web</li>
+                    <li>Grapic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod aperiam provident sunt optio vel magnam incid.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <div class="contenedor-skills" id="skills">
+        <h3>habilidades</h3>
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Html</p>
+                <span class="porcentaje">75</span>
+            </div>
+            <div class="barra">
+                <div id="html" class="barra-progreso1"></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>CSS</p>
+                <span class="porcentaje">85</span>
+            </div>
+            <div class="barra">
+                <div id="css" class="progreso2"></div>
+            </div>
+        </div>
+
+        <div class="skills">
+            <div class="info">
+                <p><span class="lista"></span>Javascript</p>
+                <span class="porcentaje">70</span>
+            </div>
+            <div class="barra">
+                <div id="js" class="progreso3"></div>
+            </div>
+        </div>
+    </div>
+
+    <section id="portafolio">
+        <h3 class="titulo-seccion">MIS PROYECTOS</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="../IMG/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Descripcion del proyecto</h4>
+                    <p>Diseño web</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contactanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre completo" class="input-mitad">
+                    <input type="text" placeholder="Direccion de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+                <input type="submit" value="Enviar mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>Todos los derechos reservados - 2023 - Alejo Sosnowski</p>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="../JS/script.js"></script>
+</body>
+</html>
